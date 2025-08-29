@@ -67,13 +67,12 @@ public class ChallengeService implements CommandLineRunner {
     private GenerateWebhookResponse generateWebhook() {
         System.out.println("\n[Step 1/2] Sending request to generate webhook...");
 
-        // =================================================================
-        // IMPORTANT: Replace these details with your own.
-        // =================================================================
+       
+    
         GenerateWebhookRequest requestBody = new GenerateWebhookRequest(
-            "Riya Kapoor",      // <-- Replace with your name
-            "22BCE1965",       // <-- Replace with your registration number (must be odd for Question 1)
-            "riyakapoor1329@gmail.com" // <-- Replace with your email
+            "Riya Kapoor",    
+            "22BCE1965",      
+            "riya.kapoor2022@vitstudent.ac.in" 
         );
         // =================================================================
 
